@@ -1,5 +1,4 @@
 import { galleryItems } from './gallery-items.js';
-import * as basicLightbox from 'basiclightbox';
 
 
 const listEl = document.querySelector('.gallery');
@@ -56,4 +55,3 @@ document.addEventListener('keydown', modalClose);
 listEl.addEventListener('click', (event) => {
     modalOpen(event);
 });
-
